@@ -1,0 +1,46 @@
+<< PATH >>
+C:\Program Files\Git\etc\profile.d
+
+#youtube
+alias youtube='yt-dlp.exe -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]"'
+
+#laravel
+alias a='php artisan'
+alias akg='php artisan key:generate'
+alias as='php artisan serve'
+alias at='php artisan test --compact'
+alias atp='php artisan test --parallel'
+alias am='php artisan migrate'
+alias amr='php artisan migrate:refresh'
+alias adbs='php artisan db:seed'
+alias acc='php artisan cache:clear'
+alias arl='php artisan route:list'
+alias pa='./vendor/bin/phpstan analyse'
+alias stan='./vendor/bin/phpstan analyse'
+alias larastan='./vendor/bin/phpstan analyse'
+
+#node
+alias vite='npm install && npm run dev'
+alias viteb='npm run build'
+
+#git
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpu='git pull'
+
+#composer
+alias du='composer dump-autoload'
+alias cl='composer larastan'
+
+#npm
+alias ni='npm install'
+alias nr='npm run'
+alias nrs='npm run start'
+alias nrb='npm run build'
+alias nrd='npm run dev'
+alias nrt='npm run test'
+
+#docker
+alias d='docker'
